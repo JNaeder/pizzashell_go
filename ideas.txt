@@ -1,0 +1,14 @@
+help - show help message
+exit - exit the program
+
+---get commands---
+fact - get random pizza fact
+locations - list of nearby pizza locations
+info - pizza nutrition info
+recipe - pizza recipes - links
+
+---make commands---
+fact - create pizza fact
+recipe - add link to pizza recipe
+
+connect to database?
