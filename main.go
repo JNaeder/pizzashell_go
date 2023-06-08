@@ -30,6 +30,15 @@ func main() {
 			switch words[1] {
 			case "location":
 				fmt.Println("Your Location ->")
+				fmt.Println(GetIp())
+			case "test":
+				for {
+					testInput := getUserInput("&&> ")
+					fmt.Println(testInput)
+					if testInput[0] == "exit" {
+						break
+					}
+				}
 			}
 		default:
 			fmt.Printf("'%s' is not a recognized command. Type 'help' for a list of commands.\n", words[0])
@@ -55,5 +64,5 @@ func helpMessage() {
 }
 
 func getHelp() {
-	fmt.Print("No command recognized after get. Try these options:\n\n")
+	fmt.Print("No command recognized after 'get'. Try these options:\n\n")
 }
